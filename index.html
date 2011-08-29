@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="css/weekli.css" rel="stylesheet" type="text/css" /> 
+    
+<title>Form Weekli</title>
+</head>
+<body>
+<div id="general">
+    <div class="node-form">
+    <form action="/weekli_src/add/event/choose-location" accept-charset="UTF-8" method="get" id="views-exposed-form-location-select-page-1"> 
+        <fieldset>
+            <legend>Location</legend>
+            <div class="form-items"> 
+                <label for="edit-location-name">Location name *</label>
+                <span>The location needs to be set before you can add an event. If you can’t find it, please <a href="#">add it here</a>.</span>
+                <div class="form-item" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-location-name" size="30" value="" class="form-text search" /> 
+                </div> 
+
+            </div> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Event</legend>
+
+            <div class="form-items error"> 
+                <label for="edit-title">Title *</label>
+                <span>This is a label & input width the class "error".</span>
+
+                <div class="form-item" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-title" size="30" value="" class="form-text" /> 
+                </div> 
+
+            </div>
+            <div class="form-items notification"> 
+                <span>
+                    There is already an event with the same title at this location. Please make sure it’s not a notification.
+                </span>
+                <div class="event">
+                    <h3>JOSH OTTUM (US)MIRACLE FORTRESS (CA)</h3>
+                    <span class="date">Friday 10.09.2011</span>
+                </div>
+                <div class="button">no it's ok</div> 
+            </div>
+            <div class="form-item"> 
+                <label for="category">Category *</label>
+                <div class="form-item"> 
+                    <select>
+                        <option>concert</option>
+                        <option>concert</option>
+                        <option>concert</option>
+                        <option>concert</option>
+                    </select>
+                </div> 
+            </div>
+            <div class="form-items error"> 
+                <label for="description">Description *</label>
+                <span>
+                    Web page addresses and e-mail addresses turn into links automatically.<br />
+                    Allowed HTML tags: < a> < em> < strong> < cite> < code> < ul> < ol> < li> < dl> < dt> < dd><br />
+                    Lines and paragraphs break automatically.
+                </span>
+                <div class="form-item" id="description"> 
+                    <textarea class="form-textarea" rows="2" cols="20"></textarea>
+                </div> 
+            </div> 
+            <div class="form-items date"> 
+                <label for="edit-from-date">From date *</label>
+
+                <div class="form-item from-date" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-location-name" size="30" value="" class="form-text" /> 
+                    <span>Format: 08/04/2011</span>
+                </div>
+                <div class="form-item to-date" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-location-name" size="30" value="" class="form-text" /> 
+                    <span>Format: 10:00</span>
+                </div>
+            </div>
+            <div class="form-items date"> 
+                <label for="edit-to-date">To date *</label>
+
+                <div class="form-item from-date" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-location-name" size="30" value="" class="form-text" /> 
+                    <span>Format: 08/04/2011</span>
+                </div>
+                <div class="form-item to-date" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-location-name" size="30" value="" class="form-text" /> 
+                    <span>Format: 10:00</span>
+                </div>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Addition informations</legend>
+
+
+            <div class="form-items price"> 
+                <label for="edit-price">Price</label>
+
+                <div class="form-item" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-price" size="30" value="" class="form-text" /> 
+                </div>
+                <div class="form-item" id="edit-location-name-wrapper"> 
+                    <select>
+                        <option>Swiss Franc (CHF)</option>
+                        <option>Swiss Franc (CHF)</option>
+                        <option>Swiss Franc (CHF)</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-items"> 
+                <label for="edit-tags">Tags</label>
+
+                <div class="form-item" id="edit-location-name-wrapper"> 
+                    <input type="text" maxlength="128" name="location-name" id="edit-tags" size="30" value="" class="form-text tags" /> 
+                </div>
+
+            </div>
+
+            <div class="form-items"> 
+                <input type="submit" id="edit-submit-location-select" value="Save"  class="form-submit" /> 
+                <input type="submit" id="edit-submit-location-select" value="Save and add another"  class="form-submit" /> 
+                <input type="submit" id="edit-submit-location-select" value="Preview"  class="form-submit" /> 
+            </div>
+        </fieldset>
+    </form> 
+    </div>
+</div>
+</body>
+</html>
